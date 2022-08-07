@@ -8,7 +8,7 @@ def insertion_sort(elements):
             elements[j+1]=elements[j]
             j=j-1
             
-        elements[j+1]=anchor #we have got the correct position for that element so assign to their correct position
+        elements[j+1]=anchor #we have got the correct position for that element so assign to their correct position,This line will execute as while condition become fasle 
 
 if __name__=='__main__':
     tests=[
